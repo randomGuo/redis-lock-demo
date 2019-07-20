@@ -14,7 +14,8 @@ import java.time.LocalDateTime;
 /**
  * @Author: gc
  * @Date: 2019/7/20
- * @Description: redis分布式锁实现
+ * @Version: 1.0
+ * @Description: redis分布式锁实现，有部分可能存在的问题未优化，详见readme
  **/
 @Component
 public class RedisLockDemo implements CommandLineRunner {
